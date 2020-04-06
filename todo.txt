@@ -1,5 +1,7 @@
 basic plan
 
--naj�t knihovnu a tu naimportovat
--vymyslet jak rozlo�it zadan� slova a vyj�d�it je ��slem, kter� pak porovn�me se slovy v knihovn�
--nastav�me odchylku, se kterou to bude slovo vn�mat jako chybu, aby se nenab�zely kraviny
+-najít knihovnu a tu naimportovat
+-vymyslet jak rozložit zadaná slova a vyjádřit je číslem, které pak porovnáme se slovy v knihovně
+-nastavíme odchylku, se kterou to bude slovo vnímat jako chybu, aby se nenabízely kraviny
+  - mohli bychom použít vzorec typu n-1, kde n bude počet písmen ve slově, popřípadě odečítat větší číslo
+  - taky bychom mohli udělat vzorec pro to, když člověk pokazí jenom diakritiku, ale moc mě nenapadá jak to dělat
