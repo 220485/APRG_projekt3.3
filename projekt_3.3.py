@@ -140,13 +140,13 @@ def without_one_letter(slovo, abeceda, knihovna, kam):
 
 
 def main():
-    zadane_slovo = input("Napište anglické slovo: ")
+    zadane_slovo = input("Vložte anglický text: ")
     knihovna = makelist()
     vysledek = []
     a = sorting_function(knihovna)
     pridani_do_seznamu(porovnani(zadane_slovo, a), vysledek)
     if vysledek == []:
-        print("I ty jeden! Takove slovo neexistuje!")
+        print("I ty jeden! Taková slova neexistují!")
     divide_delete_function(zadane_slovo, a, vysledek)
     dividing_function(zadane_slovo, a, vysledek)
     one_letter_more(zadane_slovo, a, vysledek)
